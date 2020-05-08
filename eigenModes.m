@@ -1,5 +1,4 @@
 function [phi,wn] = eigenModes(geometry,BC,Nmodes)
-% 
 % [phi,wn] = eigenModes(geometry,BC,Nmodes) computes eigen frequencies and
 % mode shapes of a beam with different boundary conditions.
 % 
@@ -54,7 +53,7 @@ L = geometry.L;
 
 % get the non trivial solution of f
 
-if Nmodes<10,
+if Nmodes<10
     Ndummy=1:Nmodes^2; % the number is arbitrary fixed as the square of the number of Nmodes.
 else
     Ndummy=1:100; % the number is arbitrary fixed as the square of the number of Nmodes.
