@@ -1,4 +1,4 @@
-# eigenBeam
+# eigen-value calculation of continuous beams
 [![View eigen-value calculation of continuous beams on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://se.mathworks.com/matlabcentral/fileexchange/52075-eigen-value-calculation-of-continuous-beams)
 [![DOI](https://zenodo.org/badge/262413587.svg)](https://zenodo.org/badge/latestdoi/262413587)
 
